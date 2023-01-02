@@ -37,8 +37,7 @@ header {
   .banner {
     display: flex;
 flex-flow: wrap row; 
-justify-content: end; 
-padding-right: 10em;
+justify-content: center; 
   }
 
   .banner p {
