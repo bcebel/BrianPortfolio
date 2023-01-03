@@ -4,8 +4,8 @@
 }
 body {
   font-family: OpenSans;
-  border: 5px;
   background-color: lightgrey;
+  font-size: 1.2em;
 }
 
 p {padding: 1em;}
@@ -34,7 +34,7 @@ section {
 header {
   display: flex;
     background-image: url(pexels-suzy-hazelwood-7026467.jpg);
-    background width: 100%;
+    background-size: 100% 100%;
 
 
   }
