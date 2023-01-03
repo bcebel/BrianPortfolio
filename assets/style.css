@@ -30,6 +30,7 @@ section {
 header {
     background-image: url(pexels-suzy-hazelwood-7026467.jpg);
     background-size: 400% 800%;
+    background-repeat: repeat;
 
 
   }
