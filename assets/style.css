@@ -50,7 +50,6 @@ section {
     
   }
 header {
-  length: 200%;
   background-image: url(pexels-dana-tentis-370799.jpg);
   color: black;
   font-size: 1.5em;
@@ -164,12 +163,8 @@ width: 10em;
 
 
   .contact {
-    width:100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
-  footer {
     background-color: dimgray;
-    length: 200%;
   }
