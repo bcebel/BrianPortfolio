@@ -34,9 +34,8 @@ a:active {
 p {padding: 1em;}
 
 article {
-    padding: 1px;
+    padding: 10px;
 flex-flow: wrap row;
-    flex: 1;
    align-content: space-between;
 
   
