@@ -8,7 +8,29 @@ body {
   color: azure;
   font-size: 1.2em;
 }
+a:link {
+  color:orangered;
+  background-color: transparent;
+  text-decoration: none;
+}
 
+a:visited {
+  color: deepskyblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
 p {padding: 1em;}
 
 article {
