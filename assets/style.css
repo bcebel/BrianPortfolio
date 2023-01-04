@@ -33,8 +33,7 @@ section {
 
 header {
   display: flex;
-    background-image: url(pexels-suzy-hazelwood-7026467.jpg);
-    background-size: 1000% 1000%;
+  background-color: dimgray;
 
 
   }
