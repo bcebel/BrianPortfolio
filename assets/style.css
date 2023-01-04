@@ -49,13 +49,15 @@ section {
     align-items: center;
     
   }
+header {
+  width: 200%;
+  background-color: dimgray;
+}
 
 
   .banner {
     display: flex;
 justify-content: space-evenly; 
-width: 100%;
-background-color: dimgray;
 
   }
 
@@ -164,6 +166,7 @@ width: 10em;
 
   footer {
     background-color: dimgray;
+    width: 200%;
 
   }
 
