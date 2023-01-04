@@ -4,7 +4,8 @@
 }
 body {
   font-family: OpenSans;
-  background-color: lightgrey;
+  background-color: rgb(52, 40, 66);
+  color: azure;
   font-size: 1.2em;
 }
 
@@ -14,8 +15,8 @@ article {
     padding: 1px;
 flex-flow: wrap row;
     flex: 1;
-    background-color: lightgrey;
-    align-content: space-between;
+   align-content: space-between;
+
   
 }
 article h1 {
@@ -24,12 +25,9 @@ font-size: 1.5em;
 section {
     display: flex;
     align-items: center;
-
+    
   }
 
-  .Navigation {
-    background: lightgrey;
-  }
 
 header {
   display: flex;
@@ -45,8 +43,8 @@ justify-content: space-evenly;
 width: 100%;
   }
 
+
   .banner p {
-    background-color: lightyellow;
     padding: 0.15em;
     border-radius: 5px;
  
@@ -143,9 +141,10 @@ width: 10em;
   transform: scale(1.25);
 }
   .contact {
-    background-color: lightgrey;
+    background-color: dimgray;
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
+
 
