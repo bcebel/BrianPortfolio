@@ -50,8 +50,10 @@ section {
     
   }
 header {
-  width: 200%;
-  background-color: dimgray;
+  length: 200%;
+  background-image: url(pexels-dana-tentis-370799.jpg);
+  color: black;
+  font-size: 1.5em;
 }
 
 
@@ -158,15 +160,16 @@ width: 10em;
 #workbox >div:nth-of-type(6):hover {
   transform: scale(1.25);
 }
+
+
+
   .contact {
+    width:100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-
   footer {
     background-color: dimgray;
-    width: 200%;
-
+    length: 200%;
   }
-
