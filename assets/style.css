@@ -51,18 +51,12 @@ section {
   }
 
 
-header {
-  display: flex;
-  background-color: dimgray;
-
-
-  }
-
   .banner {
     display: flex;
-flex-flow: wrap row; 
 justify-content: space-evenly; 
 width: 100%;
+background-color: dimgray;
+
   }
 
 
@@ -163,10 +157,13 @@ width: 10em;
   transform: scale(1.25);
 }
   .contact {
-    background-color: dimgray;
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
 
+  footer {
+    background-color: dimgray;
+
+  }
 
