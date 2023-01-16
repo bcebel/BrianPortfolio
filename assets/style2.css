@@ -15,7 +15,8 @@
   }
 
   img {
-    padding: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
   }
 
   h3 {padding: .5rem;}
@@ -38,6 +39,7 @@ padding: 1rem;
 
 .navigate {
 display: flex;
+justify-content: space-around;
 }
 
   a:link {
@@ -68,11 +70,13 @@ display: flex;
     display: flex;
     background-image: url(pexels-dana-tentis-370799.jpg);
     color: rgb(39, 33, 45);
+    height: 10em;
+    align-items: center;
   }
 
   .banner p{
-    padding-left: 55%;
-    font-size: 1.5rem;
+    padding-left: 4rem;
+    font-size: 2rem;
   }
 
   .aboutmeheader {
@@ -83,7 +87,7 @@ display: flex;
     .aboutme {
       display: flex;
   align-items: center;
-  border-width: 1rem;
+  border: 5rem;
   border-style: double;
     }
 
@@ -94,10 +98,6 @@ display: flex;
       }
 
 
-    .werk {
-        display: flex
-
-    }
     .work {
         display: flex;
         align-items: flex-start;
