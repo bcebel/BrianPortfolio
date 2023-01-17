@@ -91,6 +91,10 @@ justify-content: space-around;
   border-style: double;
     }
 
+    .two {
+      height: 5rem;
+
+    }
     .main {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
