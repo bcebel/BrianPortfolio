@@ -161,7 +161,7 @@ justify-content: space-around;
     transform: scale(1.25);
   }
   .work>a:nth-of-type(5) {
-    background-image: url(pexels-frans-van-heerden-1022692.jpg);
+    background-image: url(pexels-steve-johnson-1509534.jpg);
     background-size: 100% 100%;
   
   }
@@ -187,6 +187,16 @@ justify-content: space-around;
     transform: scale(1.25);
   }
   
+
+  .work>a:nth-of-type(8) {
+    background-image: url(pexels-suzy-hazelwood-7026467.jpg);
+    background-size: 100% 100%;
+  
+  }
+  .work>a:nth-of-type(8):hover {
+    transform: scale(1.25);
+  }
+
   footer {
     display: flex;
 flex-flow: row wrap;
