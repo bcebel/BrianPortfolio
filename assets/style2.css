@@ -1,235 +1,221 @@
-* { 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 @font-face {
-    font-family: OpenSans;
-    src: url(open-sans/OpenSans-Regular.ttf);
-  }
-  body {
-    font-family: OpenSans;
-    background-color: rgb(39, 33, 45);
-    color: azure;
-    padding: 0.5rem;
-  }
-
-  img {
-    padding-left: 2rem;
-    padding-bottom: 2rem;
-  }
-
-  h3 {padding: .5rem;}
-
-
-main {
-padding: 1rem;
-margin-left: 5%;
+  font-family: OpenSans;
+  src: url(open-sans/OpenSans-Regular.ttf);
+}
+body {
+  font-family: OpenSans;
+  background-color: rgb(39, 33, 45);
+  color: azure;
+  padding: 0.5rem;
 }
 
-  header {
-display: flex;
-flex-flow: row wrap;
-  }
+img {
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+}
+
+h3 {
+  padding: 0.5rem;
+}
+
+main {
+  padding: 1rem;
+  margin-left: 5%;
+}
+
+header {
+  display: flex;
+  flex-flow: row wrap;
+}
 
 .me {
-display: flex;
-padding: 1rem;
+  display: flex;
+  padding: 1rem;
 }
 
 .navigate {
-display: flex;
-justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
-  a:link {
-    color:orangered;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-  a:visited {
-    color: deepskyblue;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    color: red;
-    background-color: transparent;
-    text-decoration: underline;
-  }
-  
-  a:active {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: underline;
-  }
-  
-  .banner {
-    display: flex;
-    background-image: url(pexels-dana-tentis-370799.jpg);
-    color: rgb(39, 33, 45);
-    height: 10em;
-    align-items: center;
-  }
+a:link {
+  color: orangered;
+  background-color: transparent;
+  text-decoration: none;
+}
 
-  .banner p{
-    padding-left: 4rem;
-    font-size: 2rem;
-  }
+a:visited {
+  color: deepskyblue;
+  background-color: transparent;
+  text-decoration: none;
+}
 
-  .aboutmeheader {
-    DISPLAY: flex;
-    
-  }
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
 
-    .aboutme {
-      display: flex;
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.banner {
+  display: flex;
+  background-image: url(pexels-dana-tentis-370799.jpg);
+  color: rgb(39, 33, 45);
+  height: 10em;
+  align-items: center;
+}
+
+.banner p {
+  padding-left: 4rem;
+  font-size: 2rem;
+}
+
+.aboutmeheader {
+  display: flex;
+}
+
+.aboutme {
+  display: flex;
   align-items: center;
   border: 5rem;
   border-style: double;
-    }
+}
 
-    .two {
-      height: 5rem;
+.two {
+  height: 5rem;
+}
+.main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 10px;
+}
 
-    }
-    .main {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-column-gap: 10px;
-      }
+.work {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
 
+.work > a {
+  display: flex;
+  height: 10rem;
+  width: 10rem;
 
-    .work {
-        display: flex;
-        align-items: flex-start;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-
-      }
-
-  .work > a {
-    display: flex;
-    height: 10rem;
-    width:10rem;
-
-    font-size: 1.5rem;
-    color: orangered;
-    border-radius: 2px;
-    align-items: center;
-    
-  }
-.work>a:nth-of-type(1) {
-    background-image: url(pexels-pixabay-270549.jpg);
-    background-size: 100% 100%;
-  height:10rem;
+  font-size: 1.5rem;
+  color: orangered;
+  border-radius: 2px;
+  align-items: center;
+}
+.work > a:nth-of-type(1) {
+  background-image: url(pexels-pixabay-270549.jpg);
+  background-size: 100% 100%;
+  height: 10rem;
   width: 20rem;
-  }
-  
-  .work>a:nth-of-type(1):hover {
-    transform: scale(1.25);
-  }
-  
-  .work>a:nth-of-type(2) {
-    background-image: url(pexels-laura-tancredi-7078384.jpg);
-    background-size: 100% 100%;
-  
-  }
-  .work>a:nth-of-type(2):hover {
-    transform: scale(1.25);
-  }
-  
-  .work>a:nth-of-type(3) {
-    background-image: url(pexels-max-deroin-249203.jpg);
-    background-size: 100% 100%;
-  
-  }
-  
-  .work>a:nth-of-type(3):hover {
-    transform: scale(1.25);
-  }
-  
-  .work>a:nth-of-type(4) {
-    background-image: url(pexels-pixabay-355770.jpg);
-    background-size: 100% 100%;
-  
-  }
-  
-  .work>a:nth-of-type(4):hover {
-    transform: scale(1.25);
-  }
-  .work>a:nth-of-type(5) {
-    background-image: url(pexels-steve-johnson-1509534.jpg);
-    background-size: 100% 100%;
-  
-  }
-  .work>a:nth-of-type(5):hover {
-    transform: scale(1.25);
-  }
-  
-  .work>a:nth-of-type(6) {
-    background-image: url(pexels-la-miko-3616764.jpg);
-    background-size: 100% 100%;
-  
-  }
-  .work>a:nth-of-type(6):hover {
-    transform: scale(1.25);
-  }
+}
 
-  .work>a:nth-of-type(7) {
-    background-image: url(pexels-markus-spiske-1268129.jpg);
-    background-size: 100% 100%;
-  
-  }
-  .work>a:nth-of-type(7):hover {
-    transform: scale(1.25);
-  }
-  
+.work > a:nth-of-type(1):hover {
+  transform: scale(1.25);
+}
 
-  .work>a:nth-of-type(8) {
-    background-image: url(pexels-suzy-hazelwood-7026467.jpg);
-    background-size: 100% 100%;
-  
-  }
-  .work>a:nth-of-type(8):hover {
-    transform: scale(1.25);
-  }
+.work > a:nth-of-type(2) {
+  background-image: url(pexels-laura-tancredi-7078384.jpg);
+  background-size: 100% 100%;
+}
+.work > a:nth-of-type(2):hover {
+  transform: scale(1.25);
+}
 
-  footer {
-    display: flex;
-flex-flow: row wrap;
-  }
-  
-    .contact {
-      display: flex;
-        align-items: flex-start;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-    }
-  
-    .gridsection {
-        display: grid;
-        grid-template-columns: repeat(6, 1fr);
-        gap: 10px;
-        grid-template-rows: masonry;
-      }
-      .one {
-        grid-column: 1;
-        grid-row: 1;
-      }
-      .two {
-        grid-column: 2/6;
-        grid-row: 1;
-      }
-      .three {
-        grid-column: 1;
-        grid-row: 2 / 4;
-      }
-      .four {
-        grid-column: 2/6;
-        grid-row: 2/4;
-      }
+.work > a:nth-of-type(3) {
+  background-image: url(pexels-max-deroin-249203.jpg);
+  background-size: 100% 100%;
+}
 
+.work > a:nth-of-type(3):hover {
+  transform: scale(1.25);
+}
 
+.work > a:nth-of-type(4) {
+  background-image: url(pexels-pixabay-355770.jpg);
+  background-size: 100% 100%;
+}
+
+.work > a:nth-of-type(4):hover {
+  transform: scale(1.25);
+}
+.work > a:nth-of-type(5) {
+  background-image: url(pexels-steve-johnson-1509534.jpg);
+  background-size: 100% 100%;
+}
+.work > a:nth-of-type(5):hover {
+  transform: scale(1.25);
+}
+
+.work > a:nth-of-type(6) {
+  background-image: url(pexels-la-miko-3616764.jpg);
+  background-size: 100% 100%;
+}
+.work > a:nth-of-type(6):hover {
+  transform: scale(1.25);
+}
+
+.work > a:nth-of-type(7) {
+  background-image: url(pexels-markus-spiske-1268129.jpg);
+  background-size: 100% 100%;
+}
+.work > a:nth-of-type(7):hover {
+  transform: scale(1.25);
+}
+
+.work > a:nth-of-type(8) {
+  background-image: url(pexels-tatiana-fet-1105766.jpg);
+  background-size: 100% 100%;
+}
+.work > a:nth-of-type(8):hover {
+  transform: scale(1.25);
+}
+
+footer {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.contact {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.gridsection {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  grid-template-rows: masonry;
+}
+.one {
+  grid-column: 1;
+  grid-row: 1;
+}
+.two {
+  grid-column: 2/6;
+  grid-row: 1;
+}
+.three {
+  grid-column: 1;
+  grid-row: 2 / 4;
+}
+.four {
+  grid-column: 2/6;
+  grid-row: 2/4;
+}
