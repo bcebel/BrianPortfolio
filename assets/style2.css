@@ -124,10 +124,9 @@ a:active {
       text-shadow: 2px 2px 4px rgb(0, 0, 0), 0 0 1em rgb(5, 129, 129), 0 0 0.2em rgb(1, 6, 111);
 }
 .work > a:nth-of-type(1) {
-  background-image: url(pexels-pixabay-270549.jpg);
+  background-image: url(pexels-markus-spiske-1268129.jpg);
   background-size: 100% 100%;
-  height: 10rem;
-  width: 20rem; 
+
 }
 
 .work > a:nth-of-type(1):hover {
@@ -135,7 +134,7 @@ a:active {
 }
 
 .work > a:nth-of-type(2) {
-  background-image: url(pexels-scott-webb-1544946.jpg);
+  background-image: url(fire.jpg);
   background-size: 100% 100%;
 }
 .work > a:nth-of-type(2):hover {
@@ -143,7 +142,7 @@ a:active {
 }
 
 .work > a:nth-of-type(3) {
-  background-image: url(pexels-max-deroin-249203.jpg);
+  background-image: url(rocks3.jpg);
   background-size: 100% 100%;
 }
 
@@ -152,7 +151,7 @@ a:active {
 }
 
 .work > a:nth-of-type(4) {
-  background-image: url(pexels-pixabay-355770.jpg);
+  background-image: url(trees3.jpg);
   background-size: 100% 100%;
 }
 
@@ -160,7 +159,7 @@ a:active {
   transform: scale(1.25);
 }
 .work > a:nth-of-type(5) {
-  background-image: url(pexels-steve-johnson-1509534.jpg);
+  background-image: url(rocks2.jpg);
   background-size: 100% 100%;
 }
 .work > a:nth-of-type(5):hover {
@@ -168,7 +167,7 @@ a:active {
 }
 
 .work > a:nth-of-type(6) {
-  background-image: url(pexels-la-miko-3616764.jpg);
+  background-image: url(metallic1.jpg);
   background-size: 100% 100%;
 }
 .work > a:nth-of-type(6):hover {
@@ -176,7 +175,7 @@ a:active {
 }
 
 .work > a:nth-of-type(7) {
-  background-image: url(pexels-markus-spiske-1268129.jpg);
+  background-image: url(rocks1.jpg);
   background-size: 100% 100%;
   
 }
@@ -185,7 +184,7 @@ a:active {
 }
 
 .work > a:nth-of-type(8) {
-  background-image: url(pexels-engin-akyurt-2092075.jpg);
+  background-image: url(pexels-aleksandr-slobodianyk-989959.jpg);
   background-size: 100% 100%;
 }
 .work > a:nth-of-type(8):hover {
@@ -194,12 +193,13 @@ a:active {
 
 
 .work > a:nth-of-type(9) {
-  background-image: url(pexels-gdtography-911738.jpg);
+  background-image: url(metallic3.jpg);
   background-size: 100% 100%;
 }
 .work > a:nth-of-type(9):hover {
   transform: scale(1.25);
 }
+
 
 footer {
   display: flex;
