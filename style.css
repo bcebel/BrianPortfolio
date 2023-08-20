@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background: #ddd;
+  font-family: "Montserrat", sans-serif;
+  font-size: 99px;
+  text-align: center;
+}
+
+div {
+  position: absolute;
+}
+.new {
+  width: 80%;
+  margin-left: 5em;
+  font-size: 20px;
+  display: flex;
+  color: #000000;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+
+  & div {
+    position: static;
+  }
+
+  & * {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  & h3 {
+    z-index: 100;
+  }
+  @font-face {
+    font-family: OpenSans;
+    src: url(./assets/open-sans/OpenSans-Italic.ttf);
+  }
+  & body {
+    font-family: OpenSans;
+    background-color: rgb(30, 32, 45);
+    color: azure;
+    padding: 0.5em;
+  }
+
+  & img {
+    padding-left: 2em;
+    padding-bottom: 2em;
+  }
+
+  & h3 {
+    padding: 0.5em;
+  }
+
+  & .mainer {
+    padding: 5em;
+    margin-left: 200px;
+    margin-top: 60%;
+    display:flex;
+
+        flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+  }
+
+  & header {
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: column;
+  }
+
+  & .me {
+    display: flex;
+    padding: 1em;
+  }
+
+  & .navigate {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  & a:link {
+    color: rgb(255, 68, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  & a:visited {
+    color: deepskyblue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  & a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  & a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  & .banner p {
+    padding-left: 4em;
+    font-size: 2em;
+    z-index: 100;
+  }
+
+  & .aboutmeheader {
+    display: flex;
+  }
+
+  & .aboutme {
+    display: flex;
+    align-items: center;
+    border: 5em;
+    border-style: double;
+  }
+
+  & .two {
+  }
+  & .main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+  }
+
+  & .work {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  & .work > a {
+    display: flex;
+    height: 10em;
+    width: 10em;
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+    border-radius: 40px;
+    padding: 4em;
+    align-items: center;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0), 0 0 1em rgb(5, 129, 129),
+      0 0 0.2em rgb(1, 6, 111);
+    justify-content: space-evenly;
+  }
+  & .work > a:nth-of-type(1) {
+    background-image: url(./assets/leafONE.jpeg);
+    background-size: 100% 100%;
+  }
+
+  & .work > a:nth-of-type(1):hover {
+    transform: scale(1.25);
+  }
+
+  & .work > a:nth-of-type(2) {
+    background-image: url(./assets/fireTWO.jpeg);
+    background-size: 100% 100%;
+  }
+  & .work > a:nth-of-type(2):hover {
+    transform: scale(1.25);
+  }
+
+  & .work > a:nth-of-type(3) {
+    background-image: url(./assets/rocksTHREE.jpeg);
+    background-size: 100% 100%;
+  }
+
+  & .work > a:nth-of-type(3):hover {
+    transform: scale(1.25);
+  }
+
+  & .work > a:nth-of-type(4) {
+    background-image: url(./assets/treesFOUR.jpeg);
+    background-size: 100% 100%;
+  }
+
+  & .work > a:nth-of-type(4):hover {
+    transform: scale(1.25);
+  }
+  & .work > a:nth-of-type(5) {
+    background-image: url(./assets/rocksFIVE.jpeg);
+    background-size: 100% 100%;
+  }
+  & .work > a:nth-of-type(5):hover {
+    transform: scale(1.25);
+  }
+
+  & .work > a:nth-of-type(6) {
+    background-image: url(./assets/metallicSIX.jpeg);
+    background-size: 100% 100%;
+  }
+  & .work > a:nth-of-type(6):hover {
+    transform: scale(1.25);
+  }
+
+  & .work > a:nth-of-type(7) {
+    background-image: url(./assets/rocksSEVEN.jpeg);
+    background-size: 100% 100%;
+  }
+  & .work > a:nth-of-type(7):hover {
+    transform: scale(1.25);
+  }
+
+  & .work > a:nth-of-type(8) {
+    background-image: url(./assets/waterEIGHT.jpeg);
+    background-size: 100% 100%;
+  }
+  & .work > a:nth-of-type(8):hover {
+    transform: scale(1.25);
+  }
+
+  & .work > a:nth-of-type(9) {
+    background-image: url(./assets/metallicNINE.jpeg);
+    background-size: 100% 100%;
+  }
+  & .work > a:nth-of-type(9):hover {
+    transform: scale(1.25);
+  }
+
+  & .contact {
+    display: flex;
+    align-items: flex-start;
+
+    justify-content: space-around;
+    margin: 2em;
+  }
+
+  & .gridsection {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    grid-template-rows: masonry;
+  }
+  & .one {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  & .two {
+    display: flex;
+    grid-column: 2/6;
+    grid-row: 1/20;
+  }
+  & .three {
+    grid-column: 1;
+    grid-row: 22 / 24;
+  }
+  & .four {
+    grid-column: 2/6;
+    grid-row: 25/27;
+    font-size: 30px;
+  }
+  & footer {
+    position: relative;
+    border-top: 20%;
+  }
+}

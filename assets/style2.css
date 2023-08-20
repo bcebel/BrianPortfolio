@@ -224,6 +224,7 @@ footer {
   display: flex;
   grid-column: 2/6;
   grid-row: 1/20;
+  
 }
 .three {
   grid-column: 1;
