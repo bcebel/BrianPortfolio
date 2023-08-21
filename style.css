@@ -60,15 +60,14 @@ div {
     padding: 5em;
     margin-left: 200px;
     margin-top: 60%;
-    display:flex;
+    display: flex;
 
-        flex-direction: column;
+    flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: flex-start;
     align-content: center;
   }
-
 
   & .me {
     display: flex;
@@ -80,23 +79,22 @@ div {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-left: 200px;
-
   }
 
   & a:link {
-    color: rgb(255, 68, 0);
+    color: black;
     background-color: transparent;
     text-decoration: none;
   }
 
   & a:visited {
-    color: deepskyblue;
+    color: black;
     background-color: transparent;
     text-decoration: none;
   }
 
   & a:hover {
-    color: red;
+    color: black;
     background-color: transparent;
     text-decoration: underline;
   }
