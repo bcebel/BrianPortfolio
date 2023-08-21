@@ -29,7 +29,7 @@ div {
   }
 
   & * {
-    margin: 10px;
+    margin: 1px;
     padding: 0;
     box-sizing: border-box;
   }
@@ -77,9 +77,10 @@ div {
 
   & .navigate {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-left: 12em;
-    margin-right: 12em;
+    margin-left: 200px;
+
   }
 
   & a:link {
