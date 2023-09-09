@@ -2,11 +2,12 @@ gsap.set(".main", {
   position: "fixed",
   background: "#fff",
   width: "100%",
-  maxWidth: "1200px",
+
   height: "100%",
   top: 0,
   left: "50%",
   x: "-50%",
+  
 });
 gsap.set(".scrollDist", { width: "100%", height: "200%" });
 gsap
