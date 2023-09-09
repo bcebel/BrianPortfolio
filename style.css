@@ -64,6 +64,7 @@ div {
     justify-content: center;
     align-items: center;
     align-content: center;
+    font-size: 1.5em;
   }
 
   & .me {
@@ -74,7 +75,8 @@ div {
   & .navigate {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    font-size: 1.5em;
 
   }
 
@@ -157,7 +159,10 @@ div {
   }
 
   & .work > a:nth-of-type(1):hover {
-    transform: scale(1.25);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 10) 0%,
+    rgb(255, 0, 0) 100%)
   }
 
   & .work > a:nth-of-type(2) {
@@ -168,7 +173,12 @@ div {
     rgb(0, 0, 255) 100%)
   }
   & .work > a:nth-of-type(2):hover {
-    transform: scale(1.25);
+  
+      background: linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 10) 0%,
+    rgb(255, 0, 0) 100%)
+
   }
 
   & .work > a:nth-of-type(3) {
@@ -181,7 +191,10 @@ div {
   }
 
   & .work > a:nth-of-type(3):hover {
-    transform: scale(1.25);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 10) 0%,
+    rgb(255, 0, 0) 100%)
   }
 
   & .work > a:nth-of-type(4) {
@@ -194,7 +207,11 @@ div {
   }
 
   & .work > a:nth-of-type(4):hover {
-    transform: scale(1.25);
+  background: linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 10) 0%,
+    rgb(255, 0, 0) 100%)
+  
   }
   & .work > a:nth-of-type(5) {
   background: rgb(63, 94, 251);
@@ -204,7 +221,10 @@ div {
     rgb(0, 0, 255) 100%)
   }
   & .work > a:nth-of-type(5):hover {
-    transform: scale(1.25);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 10) 0%,
+    rgb(255, 0, 0) 100%)
   }
 
   & .work > a:nth-of-type(6) {
@@ -215,7 +235,10 @@ div {
     rgb(0, 0, 255) 100%)
   }
   & .work > a:nth-of-type(6):hover {
-    transform: scale(1.25);
+  background: linear-gradient(
+    -45deg,
+    rgba(0, 0, 0, 10) 0%,
+    rgb(255, 0, 0) 100%)
   }
 
   & .work > a:nth-of-type(7) {
@@ -226,7 +249,10 @@ div {
     rgb(0, 0, 255) 100%)
   }
   & .work > a:nth-of-type(7):hover {
-    transform: scale(1.25);
+  background: linear-gradient(
+    -90deg,
+    rgba(0, 0, 0, 10) 0%,
+    rgb(255, 0, 0) 100%)
   }
 
   & .work > a:nth-of-type(8) {
@@ -237,7 +263,10 @@ div {
     rgb(0, 0, 255) 100%)
   }
   & .work > a:nth-of-type(8):hover {
-    transform: scale(1.25);
+  background: linear-gradient(
+    -135deg,
+    rgba(0, 0, 0, 10) 0%,
+    rgb(255, 0, 0) 100%)
   }
 
   & .work > a:nth-of-type(9) {
@@ -248,7 +277,10 @@ div {
     rgb(0, 0, 255) 100%)
   }
   & .work > a:nth-of-type(9):hover {
-    transform: scale(1.25);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 10) 0%,
+    rgb(255, 0, 0) 100%)
   }
 
   & .contact {
