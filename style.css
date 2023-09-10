@@ -2,7 +2,6 @@
 
 body,
 html {
-
   background: #ddd;
   font-family: "Montserrat", sans-serif;
   font-size: 99px;
@@ -13,7 +12,6 @@ div {
   position: absolute;
 }
 .new {
-
   font-size: 20px;
   display: flex;
   color: #000000;
@@ -55,7 +53,6 @@ div {
   }
 
   & .mainer {
-
     margin-top: 60%;
     display: flex;
 
@@ -77,7 +74,6 @@ div {
     flex-wrap: nowrap;
     justify-content: space-around;
     font-size: 1.5em;
-
   }
 
   & a:link {
@@ -151,136 +147,166 @@ div {
     justify-content: space-evenly;
   }
   & .work > a:nth-of-type(1) {
-  background: rgb(63, 94, 251);
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 10) 0%,
-    rgb(0, 0, 255) 100%)
+    background: rgb(63, 94, 251);
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 10) 0%,
+      rgb(0, 0, 255) 100%
+    );
   }
 
   & .work > a:nth-of-type(1):hover {
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 10) 0%,
-    rgb(255, 0, 0) 100%)
+    background: radial-gradient(
+      circle,
+      rgb(255, 255, 255) 10%,
+      rgb(0, 255, 255) 100%
+    );
+    color: rgb(0, 0, 0);
+    text-shadow: none;
   }
 
   & .work > a:nth-of-type(2) {
-  background: rgb(63, 94, 251);
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 10) 0%,
-    rgb(0, 0, 255) 100%)
+    background: rgb(63, 94, 251);
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 10) 0%,
+      rgb(0, 0, 255) 100%
+    );
   }
   & .work > a:nth-of-type(2):hover {
-  
-      background: linear-gradient(
-    135deg,
-    rgba(0, 0, 0, 10) 0%,
-    rgb(255, 0, 0) 100%)
-
+    background: radial-gradient(
+      circle,
+      rgb(255, 255, 255) 10%,
+      rgb(0, 255, 255) 100%
+    );
+    color: rgb(0, 0, 0);
+    text-shadow: none;
   }
 
   & .work > a:nth-of-type(3) {
-  background: rgb(63, 94, 251);
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 10) 0%,
-    rgb(0, 0, 255) 100%)
-  
+    background: rgb(63, 94, 251);
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 10) 0%,
+      rgb(0, 0, 255) 100%
+    );
   }
 
   & .work > a:nth-of-type(3):hover {
-  background: linear-gradient(
-    90deg,
-    rgba(0, 0, 0, 10) 0%,
-    rgb(255, 0, 0) 100%)
+    background: radial-gradient(
+      circle,
+      rgb(255, 255, 255) 10%,
+      rgb(0, 255, 255) 100%
+    );
+    color: rgb(0, 0, 0);
+    text-shadow: none;
   }
 
   & .work > a:nth-of-type(4) {
-  background: rgb(63, 94, 251);
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 10) 0%,
-    rgb(0, 0, 255) 100%)
-  
+    background: rgb(63, 94, 251);
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 10) 0%,
+      rgb(0, 0, 255) 100%
+    );
   }
 
   & .work > a:nth-of-type(4):hover {
-  background: linear-gradient(
-    45deg,
-    rgba(0, 0, 0, 10) 0%,
-    rgb(255, 0, 0) 100%)
-  
+    background: radial-gradient(
+      circle,
+      rgb(255, 255, 255) 10%,
+      rgb(0, 255, 255) 100%
+    );
+    color: rgb(0, 0, 0);
+    text-shadow: none;
   }
   & .work > a:nth-of-type(5) {
-  background: rgb(63, 94, 251);
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 10) 0%,
-    rgb(0, 0, 255) 100%)
+    background: rgb(63, 94, 251);
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 10) 0%,
+      rgb(0, 0, 255) 100%
+    );
   }
   & .work > a:nth-of-type(5):hover {
-  background: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 10) 0%,
-    rgb(255, 0, 0) 100%)
+    background: radial-gradient(
+      circle,
+      rgb(255, 255, 255) 10%,
+      rgb(0, 255, 255) 100%
+    );
+    color: rgb(0, 0, 0);
+    text-shadow: none;
   }
 
   & .work > a:nth-of-type(6) {
-  background: rgb(63, 94, 251);
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 10) 0%,
-    rgb(0, 0, 255) 100%)
+    background: rgb(63, 94, 251);
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 10) 0%,
+      rgb(0, 0, 255) 100%
+    );
   }
   & .work > a:nth-of-type(6):hover {
-  background: linear-gradient(
-    -45deg,
-    rgba(0, 0, 0, 10) 0%,
-    rgb(255, 0, 0) 100%)
+    background: radial-gradient(
+      circle,
+      rgb(255, 255, 255) 10%,
+      rgb(0, 255, 255) 100%
+    );
+    color: rgb(0, 0, 0);
+    text-shadow: none;
   }
-
   & .work > a:nth-of-type(7) {
-  background: rgb(63, 94, 251);
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 10) 0%,
-    rgb(0, 0, 255) 100%)
+    background: rgb(63, 94, 251);
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 10) 0%,
+      rgb(0, 0, 255) 100%
+    );
   }
   & .work > a:nth-of-type(7):hover {
-  background: linear-gradient(
-    -90deg,
-    rgba(0, 0, 0, 10) 0%,
-    rgb(255, 0, 0) 100%)
+    background: radial-gradient(
+      circle,
+      rgb(255, 255, 255) 10%,
+      rgb(0, 255, 255) 100%
+    );
+    color: rgb(0, 0, 0);
+    text-shadow: none;
   }
 
   & .work > a:nth-of-type(8) {
-  background: rgb(63, 94, 251);
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 10) 0%,
-    rgb(0, 0, 255) 100%)
+    background: rgb(63, 94, 251);
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 10) 0%,
+      rgb(0, 0, 255) 100%
+    );
   }
   & .work > a:nth-of-type(8):hover {
-  background: linear-gradient(
-    -135deg,
-    rgba(0, 0, 0, 10) 0%,
-    rgb(255, 0, 0) 100%)
+    background: radial-gradient(
+      circle,
+      rgb(255, 255, 255) 10%,
+      rgb(0, 255, 255) 100%
+    );
+    color: rgb(0, 0, 0);
+    text-shadow: none;
   }
 
   & .work > a:nth-of-type(9) {
-  background: rgb(63, 94, 251);
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 10) 0%,
-    rgb(0, 0, 255) 100%)
+    background: rgb(63, 94, 251);
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 10) 0%,
+      rgb(0, 0, 255) 100%
+    );
   }
   & .work > a:nth-of-type(9):hover {
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 10) 0%,
-    rgb(255, 0, 0) 100%)
+    background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 10) 10%,
+      rgb(0, 255, 255) 100%
+    );
+    color: rgb(0, 0, 0);
+    text-shadow: none;
   }
 
   & .contact {
@@ -296,8 +322,12 @@ div {
     grid-template-columns: repeat(6, 1fr);
     gap: 10px;
     grid-template-rows: masonry;
-background: rgb(32,82,105);
-background: radial-gradient(circle, rgba(0, 174, 255, 0.492) 0%, rgba(255,255,255,1) 100%);
+    background: rgb(32, 82, 105);
+    background: radial-gradient(
+      circle,
+      rgba(0, 174, 255, 0.492) 0%,
+      rgba(255, 255, 255, 1) 100%
+    );
   }
   & .one {
     grid-column: 1;
@@ -318,7 +348,5 @@ background: radial-gradient(circle, rgba(0, 174, 255, 0.492) 0%, rgba(255,255,25
     font-size: 30px;
   }
   & footer {
-
-
   }
 }
