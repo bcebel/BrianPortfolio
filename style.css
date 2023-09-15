@@ -308,6 +308,23 @@ div {
     color: rgb(0, 0, 0);
     text-shadow: none;
   }
+  & .work > a:nth-of-type(10) {
+    background: rgb(63, 94, 251);
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 10) 0%,
+      rgb(0, 0, 255) 100%
+    );
+  }
+  & .work > a:nth-of-type(10):hover {
+    background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 10) 10%,
+      rgb(0, 255, 255) 100%
+    );
+    color: rgb(0, 0, 0);
+    text-shadow: none;
+  }
 
   & .contact {
     display: flex;
