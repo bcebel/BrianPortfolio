@@ -159,8 +159,7 @@ div {
     background: radial-gradient(
       circle,
       rgb(255, 255, 255) 10%,
-       rgb(0, 174, 255) 150%
-
+      rgb(0, 174, 255) 150%
     );
     color: rgb(0, 0, 0);
     text-shadow: none;
@@ -179,7 +178,6 @@ div {
       circle,
       rgb(255, 255, 255) 10%,
       rgb(0, 174, 255) 150%
-
     );
     color: rgb(0, 0, 0);
     text-shadow: none;
@@ -198,8 +196,7 @@ div {
     background: radial-gradient(
       circle,
       rgb(255, 255, 255) 10%,
-        rgb(0, 174, 255) 150%
-
+      rgb(0, 174, 255) 150%
     );
     color: rgb(0, 0, 0);
     text-shadow: none;
@@ -219,7 +216,6 @@ div {
       circle,
       rgb(255, 255, 255) 10%,
       rgb(0, 174, 255) 150%
-
     );
     color: rgb(0, 0, 0);
     text-shadow: none;
@@ -237,7 +233,6 @@ div {
       circle,
       rgb(255, 255, 255) 10%,
       rgb(0, 174, 255) 150%
-
     );
     color: rgb(0, 0, 0);
     text-shadow: none;
@@ -256,7 +251,6 @@ div {
       circle,
       rgb(255, 255, 255) 10%,
       rgb(0, 174, 255) 150%
-
     );
     color: rgb(0, 0, 0);
     text-shadow: none;
@@ -274,7 +268,6 @@ div {
       circle,
       rgb(255, 255, 255) 10%,
       rgb(0, 174, 255) 150%
-
     );
     color: rgb(0, 0, 0);
     text-shadow: none;
@@ -293,7 +286,6 @@ div {
       circle,
       rgb(255, 255, 255) 10%,
       rgb(0, 174, 255) 150%
-
     );
     color: rgb(0, 0, 0);
     text-shadow: none;
@@ -312,7 +304,6 @@ div {
       circle,
       rgba(255, 255, 255, 10) 10%,
       rgb(0, 174, 255) 150%
-
     );
     color: rgb(0, 0, 0);
     text-shadow: none;
@@ -330,7 +321,6 @@ div {
       circle,
       rgba(255, 255, 255, 10) 10%,
       rgb(0, 174, 255) 150%
-
     );
     color: rgb(0, 0, 0);
     text-shadow: none;
@@ -344,6 +334,23 @@ div {
     );
   }
   & .work > a:nth-of-type(11):hover {
+    background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 10) 10%,
+      rgb(0, 174, 255) 150%
+    );
+    color: rgb(0, 0, 0);
+    text-shadow: none;
+  }
+  & .work > a:nth-of-type(12) {
+    background: rgb(63, 94, 251);
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 10) 0%,
+      rgb(0, 0, 255) 100%
+    );
+  }
+  & .work > a:nth-of-type(12):hover {
     background: radial-gradient(
       circle,
       rgba(255, 255, 255, 10) 10%,
@@ -377,7 +384,6 @@ div {
     grid-row: 1;
   }
   & .two {
-    display: flex;
     grid-column: 2/6;
     grid-row: 1/20;
   }
