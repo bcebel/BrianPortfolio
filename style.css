@@ -77,13 +77,13 @@ div {
   }
 
   & a:link {
-    color: black;
+    color: rgb(255, 0, 0);
     background-color: transparent;
-    text-decoration: none;
+    text-decoration: underline;
   }
 
   & a:visited {
-    color: black;
+    color: rgb(3, 18, 0);
     background-color: transparent;
     text-decoration: none;
   }
